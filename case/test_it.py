@@ -1,5 +1,7 @@
 import json
 import pytest
+import sys
+sys.path.append('.../...')
 from Apiframework.common.yaml_util import YamlUtil
 from Apiframework.common.request_util import Request_util
 from Apiframework.common.check_json import check_field
