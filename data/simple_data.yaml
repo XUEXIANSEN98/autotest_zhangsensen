@@ -1,0 +1,13 @@
+-
+  title: 验证simple接口
+  request:
+    method: post
+    url: https://httpbin.org/post
+    params:
+      grant_type: null
+      appid: null
+      secret: null
+    data: {"username":"666666@qq.com","password":"666"}
+    headers: null
+    except : json
+  validate: null

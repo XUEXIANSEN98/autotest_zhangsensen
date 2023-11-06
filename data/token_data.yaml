@@ -1,0 +1,13 @@
+-
+  title: 获取token
+  request:
+    method: get
+    url:  https://api.weixin.qq.com/cgi-bin/token
+    params:
+      grant_type: client_credential
+      appid: wx799dea56531fce95
+      secret: 596e867d93fe414e1212874ec09d9f7d
+    data: null
+    headers: null
+    except: access_token
+  validate: null
